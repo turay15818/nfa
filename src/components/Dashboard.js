@@ -9,7 +9,6 @@ import {
     CCardHeader,
     CCol,
     CRow,
-    CSpinner,
 } from '@coreui/react'
 import {
     CChartBar,
