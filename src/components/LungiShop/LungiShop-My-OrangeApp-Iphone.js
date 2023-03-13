@@ -8,7 +8,7 @@ function LungiShopMyOrangeAppIphone() {
     const coordinate = "7.966290383215581, -11.739795058541828"
     const timestamp = new Date().toISOString();
 
-    fetch("http://localhost:7900/api/myOrange-for-lungishop/Iphone", {
+    fetch("https://heruku-app.herokuapp.com/api/myOrange-for-lungishop/Iphone", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

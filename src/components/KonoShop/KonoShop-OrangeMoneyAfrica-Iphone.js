@@ -8,7 +8,7 @@ function KonoShopOrangeMoneyAfricaIphone() {
   const coordinate = "8.645165523969375, -10.971248831137022"
   const timestamp = new Date().toISOString();
 
-  fetch("http://localhost:7900/api/orangeMoneyAfrica-for-konoshop/Iphone", {
+  fetch("https://heruku-app.herokuapp.com/api/orangeMoneyAfrica-for-konoshop/Iphone", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),

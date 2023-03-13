@@ -8,7 +8,7 @@ function FlagshipShopMyOrangeAppIphone() {
     const coordinate = "8.489457425115289, -13.232526791954665";
     const timestamp = new Date().toISOString();
 
-    fetch("http://localhost:7900/api/myOrange-for-flagshipshop/Iphone", {
+    fetch("https://heruku-app.herokuapp.com/api/myOrange-for-flagshipshop/Iphone", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

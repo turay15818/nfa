@@ -8,7 +8,7 @@ function WaterlooShopMyOrangeAppIphone() {
     const coordinate = "7.880783487922352, -11.190103268601433"
     const timestamp = new Date().toISOString();
 
-    fetch("http://localhost:7900/api/myOrange-for-waterlooshop/Iphone", {
+    fetch("https://heruku-app.herokuapp.com/api/myOrange-for-waterlooshop/Iphone", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ appDownloaded, downloadLocation, coordinate, timestamp }),

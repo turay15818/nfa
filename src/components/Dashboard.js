@@ -66,7 +66,7 @@ const Dashboard = () => {
 
 
     useEffect(() => {
-        axios.get('http://localhost:7900/')
+        axios.get('https://heruku-app.herokuapp.com/')
             .then(response => {
 
                 setMy_orange_app_download_for_iphone_at_hqshop_sum(response.data.my_orange_app_download_for_iphone_at_hqshop_sum);

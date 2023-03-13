@@ -7,7 +7,7 @@ function KonoShopMyOrangeAppAndroid() {
     const coordinate = "8.645165523969375, -10.971248831137022"
     const timestamp = new Date().toISOString();
 
-    fetch("http://localhost:7900/api/myOrange-for-konoshop/Android", {
+    fetch("https://heruku-app.herokuapp.com/api/myOrange-for-konoshop/Android", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ downloadLocation, appDownloaded, coordinate, timestamp }),
