@@ -17,6 +17,10 @@
   // }
   // saveLocationAndNavigate();
 
+
+
+
+
   const latitude = 8.4743835;
   const longitude = -13.261373166666669;
   const timestamp = new Date().toISOString();

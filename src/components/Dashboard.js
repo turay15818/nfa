@@ -18,54 +18,100 @@ import {
 
 const Dashboard = () => {
 
-    const [my_orange_app_download_for_iphone_at_regent_rd_sum, setMy_orange_app_download_for_iphone_at_regent_rd_sum] = useState(null);
-    const [my_orange_app_download_for_android_at_regent_rd_sum, setMy_orange_app_download_for_android_at_regent_rd_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_regent_rd_sum, setOrange_money_africa_app_download_for_iphone_at_regent_rd_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_regent_rd_sum, setOrange_money_africa_app_download_for_android_at_regent_rd_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_hqshop_sum, setMy_orange_app_download_for_iphone_at_hqshop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_kenemashop_sum, setMy_orange_app_download_for_iphone_at_kenemashop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_boshop_sum, setMy_orange_app_download_for_iphone_at_boshop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_makenishop_sum, setMy_orange_app_download_for_iphone_at_makenishop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_konoshop_sum, setMy_orange_app_download_for_iphone_at_konoshop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_flagshipshop_sum, setMy_orange_app_download_for_iphone_at_flagshipshop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_lungishop_sum, setMy_orange_app_download_for_iphone_at_lungishop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_waterlooshop_sum, setMy_orange_app_download_for_iphone_at_waterlooshop_sum] = useState(null);
+    const [my_orange_app_download_for_iphone_at_wellingtonshop_sum, setMy_orange_app_download_for_iphone_at_wellingtonshop_sum] = useState(null);
 
 
-    const [my_orange_app_download_for_iphone_at_kenema_sum, setMy_orange_app_download_for_iphone_at_kenema_sum] = useState(null);
-    const [my_orange_app_download_for_android_at_kenema_sum, setMy_orange_app_download_for_android_at_kenema_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_kenema_sum, setOrange_money_africa_app_download_for_iphone_at_kenema_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_kenema_sum, setOrange_money_africa_app_download_for_android_at_kenema_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_hqshop_sum, setMy_orange_app_download_for_android_at_hqshop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_kenemashop_sum, setMy_orange_app_download_for_android_at_kenemashop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_boshop_sum, setMy_orange_app_download_for_android_at_boshop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_makenishop_sum, setMy_orange_app_download_for_android_at_makenishop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_konoshop_sum, setMy_orange_app_download_for_android_at_konoshop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_flagshipshop_sum, setMy_orange_app_download_for_android_at_flagshipshop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_lungishop_sum, setMy_orange_app_download_for_android_at_lungishop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_waterlooshop_sum, setMy_orange_app_download_for_android_at_waterlooshop_sum] = useState(null);
+    const [my_orange_app_download_for_android_at_wellingtonshop_sum, setMy_orange_app_download_for_android_at_wellingtonshop_sum] = useState(null);
 
 
-    const [my_orange_app_download_for_iphone_at_kailahun_sum, setMy_orange_app_download_for_iphone_at_kailahun_sum] = useState(null);
-    const [my_orange_app_download_for_android_at_kailahun_sum, setMy_orange_app_download_for_android_at_kailahun_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_kailahun_sum, setOrange_money_africa_app_download_for_iphone_at_kailahun_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_kailahun_sum, setOrange_money_africa_app_download_for_android_at_kailahun_sum] = useState(null);
+
+    const [orange_money_africa_app_download_for_iphone_at_hqshop_sum, setOrange_money_africa_app_download_for_iphone_at_hqshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_kenemashop_sum, setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_boshop_sum, setOrange_money_africa_app_download_for_iphone_at_boshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_makenishop_sum, setOrange_money_africa_app_download_for_iphone_at_makenishop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_konoshop_sum, setOrange_money_africa_app_download_for_iphone_at_konoshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_flagshipshop_sum, setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_lungishop_sum, setOrange_money_africa_app_download_for_iphone_at_lungishop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_waterlooshop_sum, setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum] = useState(null);
 
 
-    const [my_orange_app_download_for_iphone_at_wilkenson_rd_sum, setMy_orange_app_download_for_iphone_at_wilkenson_rd_sum] = useState(null);
-    const [my_orange_app_download_for_android_at_wilkenson_rd_sum, setMy_orange_app_download_for_android_at_wilkenson_rd_sum] = useState(null);
-    const [orange_money_africa_app_download_for_iphone_at_wilkenson_rd_sum, setOrange_money_africa_app_download_for_iphone_at_wilkenson_rd_sum] = useState(null);
-    const [orange_money_africa_app_download_for_android_at_wilkenson_rd_sum, setOrange_money_africa_app_download_for_android_at_wilkenson_rd_sum] = useState(null);
+
+    const [orange_money_africa_app_download_for_android_at_hqshop_sum, setOrange_money_africa_app_download_for_android_at_hqshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_kenemashop_sum, setOrange_money_africa_app_download_for_android_at_kenemashop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_boshop_sum, setOrange_money_africa_app_download_for_android_at_boshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_makenishop_sum, setOrange_money_africa_app_download_for_android_at_makenishop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_konoshop_sum, setOrange_money_africa_app_download_for_android_at_konoshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_flagshipshop_sum, setOrange_money_africa_app_download_for_android_at_flagshipshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_lungishop_sum, setOrange_money_africa_app_download_for_android_at_lungishop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_waterlooshop_sum, setOrange_money_africa_app_download_for_android_at_waterlooshop_sum] = useState(null);
+    const [orange_money_africa_app_download_for_android_at_wellingtonshop_sum, setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum] = useState(null);
+
 
 
     useEffect(() => {
-        axios.get('https://heruku-app.herokuapp.com/')
+        axios.get('http://localhost:7900/')
             .then(response => {
-                setMy_orange_app_download_for_iphone_at_regent_rd_sum(response.data.my_orange_app_download_for_iphone_at_regent_rd_sum);
-                setMy_orange_app_download_for_android_at_regent_rd_sum(response.data.my_orange_app_download_for_android_at_regent_rd_sum);
-                setOrange_money_africa_app_download_for_iphone_at_regent_rd_sum(response.data.orange_money_africa_app_download_for_iphone_at_regent_rd_sum);
-                setOrange_money_africa_app_download_for_android_at_regent_rd_sum(response.data.orange_money_africa_app_download_for_android_at_regent_rd_sum);
 
-                setMy_orange_app_download_for_iphone_at_kenema_sum(response.data.my_orange_app_download_for_iphone_at_kenema_sum);
-                setMy_orange_app_download_for_android_at_kenema_sum(response.data.my_orange_app_download_for_android_at_kenema_sum);
-                setOrange_money_africa_app_download_for_iphone_at_kenema_sum(response.data.orange_money_africa_app_download_for_iphone_at_kenema_sum);
-                setOrange_money_africa_app_download_for_android_at_kenema_sum(response.data.orange_money_africa_app_download_for_android_at_kenema_sum);
-
-
-                setMy_orange_app_download_for_iphone_at_kailahun_sum(response.data.my_orange_app_download_for_iphone_at_kailahun_sum);
-                setMy_orange_app_download_for_android_at_kailahun_sum(response.data.my_orange_app_download_for_android_at_kailahun_sum);
-                setOrange_money_africa_app_download_for_iphone_at_kailahun_sum(response.data.orange_money_africa_app_download_for_iphone_at_kailahun_sum);
-                setOrange_money_africa_app_download_for_android_at_kailahun_sum(response.data.orange_money_africa_app_download_for_android_at_kailahun_sum);
+                setMy_orange_app_download_for_iphone_at_hqshop_sum(response.data.my_orange_app_download_for_iphone_at_hqshop_sum);
+                setMy_orange_app_download_for_iphone_at_flagshipshop_sum(response.data.my_orange_app_download_for_iphone_at_flagshipshop_sum);
+                setMy_orange_app_download_for_iphone_at_makenishop_sum(response.data.my_orange_app_download_for_iphone_at_makenishop_sum);
+                setMy_orange_app_download_for_iphone_at_boshop_sum(response.data.my_orange_app_download_for_iphone_at_boshop_sum);
+                setMy_orange_app_download_for_iphone_at_kenemashop_sum(response.data.my_orange_app_download_for_iphone_at_kenemashop_sum);
+                setMy_orange_app_download_for_iphone_at_konoshop_sum(response.data.my_orange_app_download_for_iphone_at_konoshop_sum);
+                setMy_orange_app_download_for_iphone_at_lungishop_sum(response.data.my_orange_app_download_for_iphone_at_lungishop_sum);
+                setMy_orange_app_download_for_iphone_at_wellingtonshop_sum(response.data.my_orange_app_download_for_iphone_at_wellingtonshop_sum);
+                setMy_orange_app_download_for_iphone_at_waterlooshop_sum(response.data.my_orange_app_download_for_iphone_at_waterlooshop_sum);
 
 
-                setMy_orange_app_download_for_iphone_at_wilkenson_rd_sum(response.data.my_orange_app_download_for_iphone_at_wilkenson_rd_sum);
-                setMy_orange_app_download_for_android_at_wilkenson_rd_sum(response.data.my_orange_app_download_for_android_at_wilkenson_rd_sum);
-                setOrange_money_africa_app_download_for_iphone_at_wilkenson_rd_sum(response.data.orange_money_africa_app_download_for_iphone_at_wilkenson_rd_sum);
-                setOrange_money_africa_app_download_for_android_at_wilkenson_rd_sum(response.data.orange_money_africa_app_download_for_android_at_wilkenson_rd_sum);
+                setMy_orange_app_download_for_android_at_hqshop_sum(response.data.my_orange_app_download_for_android_at_hqshop_sum);
+                setMy_orange_app_download_for_android_at_flagshipshop_sum(response.data.my_orange_app_download_for_android_at_flagshipshop_sum);
+                setMy_orange_app_download_for_android_at_makenishop_sum(response.data.my_orange_app_download_for_android_at_makenishop_sum);
+                setMy_orange_app_download_for_android_at_boshop_sum(response.data.my_orange_app_download_for_android_at_boshop_sum);
+                setMy_orange_app_download_for_android_at_kenemashop_sum(response.data.my_orange_app_download_for_android_at_kenemashop_sum);
+                setMy_orange_app_download_for_android_at_konoshop_sum(response.data.my_orange_app_download_for_android_at_konoshop_sum);
+                setMy_orange_app_download_for_android_at_lungishop_sum(response.data.my_orange_app_download_for_android_at_lungishop_sum);
+                setMy_orange_app_download_for_android_at_wellingtonshop_sum(response.data.my_orange_app_download_for_android_at_wellingtonshop_sum);
+                setMy_orange_app_download_for_android_at_waterlooshop_sum(response.data.my_orange_app_download_for_android_at_waterlooshop_sum);
+
+
+
+                setOrange_money_africa_app_download_for_iphone_at_hqshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_hqshop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_flagshipshop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_makenishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_makenishop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_boshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_boshop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_iphone_at_kenemashop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_konoshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_konoshop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_lungishop_sum(response.data.orange_money_africa_app_download_for_iphone_at_lungishop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum);
+                setOrange_money_africa_app_download_for_iphone_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_iphone_at_waterlooshop_sum);
+
+
+                setOrange_money_africa_app_download_for_android_at_hqshop_sum(response.data.orange_money_africa_app_download_for_android_at_hqshop_sum);
+                setOrange_money_africa_app_download_for_android_at_flagshipshop_sum(response.data.orange_money_africa_app_download_for_android_at_flagshipshop_sum);
+                setOrange_money_africa_app_download_for_android_at_makenishop_sum(response.data.orange_money_africa_app_download_for_android_at_makenishop_sum);
+                setOrange_money_africa_app_download_for_android_at_boshop_sum(response.data.orange_money_africa_app_download_for_android_at_boshop_sum);
+                setOrange_money_africa_app_download_for_android_at_kenemashop_sum(response.data.orange_money_africa_app_download_for_android_at_kenemashop_sum);
+                setOrange_money_africa_app_download_for_android_at_konoshop_sum(response.data.orange_money_africa_app_download_for_android_at_konoshop_sum);
+                setOrange_money_africa_app_download_for_android_at_lungishop_sum(response.data.orange_money_africa_app_download_for_android_at_lungishop_sum);
+                setOrange_money_africa_app_download_for_android_at_wellingtonshop_sum(response.data.orange_money_africa_app_download_for_android_at_wellingtonshop_sum);
+                setOrange_money_africa_app_download_for_android_at_waterlooshop_sum(response.data.orange_money_africa_app_download_for_android_at_waterlooshop_sum);
 
             })
             .catch(error => console.log(error));
@@ -100,21 +146,32 @@ const Dashboard = () => {
                             <CChartBar
                                 data={{
                                     labels: [
-                                        'Regent Road',
-                                        'Wilkenson Road',
+                                        'HeadQ',
+                                        'Flagship',
+                                        'Wellington',
+                                        'Waterloo',
+                                        'Makeni',
+                                        'Bo',
                                         'Kenema',
-                                        'Kailahun'
+                                        'Kono',
+                                        'Lungi'
                                     ],
                                     datasets: [
                                         {
                                             label: ['Details'],
-                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253'],
+                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253', '#FF7B54', '#FFB26B', '#FFD56F', '#939B62', '#B08BBB'],
                                             data: [
 
-                                                `${my_orange_app_download_for_iphone_at_regent_rd_sum}`,
-                                                `${my_orange_app_download_for_iphone_at_wilkenson_rd_sum}`,
-                                                `${my_orange_app_download_for_iphone_at_kenema_sum}`,
-                                                `${my_orange_app_download_for_iphone_at_kailahun_sum}`],
+                                                `${my_orange_app_download_for_iphone_at_hqshop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_flagshipshop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_wellingtonshop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_waterlooshop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_makenishop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_boshop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_kenemashop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_konoshop_sum}`,
+                                                `${my_orange_app_download_for_iphone_at_lungishop_sum}`,
+                                            ]
                                         },
                                     ],
                                 }}
@@ -130,21 +187,32 @@ const Dashboard = () => {
                             <CChartBar
                                 data={{
                                     labels: [
-                                        'Regent Road',
-                                        'Wilkenson Road',
+                                        'HeadQ',
+                                        'Flagship',
+                                        'Wellington',
+                                        'Waterloo',
+                                        'Makeni',
+                                        'Bo',
                                         'Kenema',
-                                        'Kailahun'
+                                        'Kono',
+                                        'Lungi'
                                     ],
                                     datasets: [
                                         {
                                             label: ['Details'],
-                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253'],
+                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253', '#FF7B54', '#FFB26B', '#FFD56F', '#939B62', '#B08BBB'],
                                             data: [
 
-                                                `${my_orange_app_download_for_android_at_regent_rd_sum}`,
-                                                `${my_orange_app_download_for_android_at_wilkenson_rd_sum}`,
-                                                `${my_orange_app_download_for_android_at_kenema_sum}`,
-                                                `${my_orange_app_download_for_android_at_kailahun_sum}`],
+                                                `${my_orange_app_download_for_android_at_hqshop_sum}`,
+                                                `${my_orange_app_download_for_android_at_flagshipshop_sum}`,
+                                                `${my_orange_app_download_for_android_at_wellingtonshop_sum}`,
+                                                `${my_orange_app_download_for_android_at_waterlooshop_sum}`,
+                                                `${my_orange_app_download_for_android_at_makenishop_sum}`,
+                                                `${my_orange_app_download_for_android_at_boshop_sum}`,
+                                                `${my_orange_app_download_for_android_at_kenemashop_sum}`,
+                                                `${my_orange_app_download_for_android_at_konoshop_sum}`,
+                                                `${my_orange_app_download_for_android_at_lungishop_sum}`,
+                                            ]
                                         },
                                     ],
                                 }}
@@ -164,21 +232,33 @@ const Dashboard = () => {
                             <CChartBar
                                 data={{
                                     labels: [
-                                        'Regent Road',
-                                        'Wilkenson Road',
+                                        'HeadQ',
+                                        'Flagship',
+                                        'Wellington',
+                                        'Waterloo',
+                                        'Makeni',
+                                        'Bo',
                                         'Kenema',
-                                        'Kailahun'
+                                        'Kono',
+                                        'Lungi'
                                     ],
                                     datasets: [
                                         {
                                             label: ['Details'],
-                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253'],
+                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253', '#FF7B54', '#FFB26B', '#FFD56F', '#939B62', '#B08BBB'],
                                             data: [
 
-                                                `${orange_money_africa_app_download_for_iphone_at_regent_rd_sum}`,
-                                                `${orange_money_africa_app_download_for_iphone_at_wilkenson_rd_sum}`,
-                                                `${orange_money_africa_app_download_for_iphone_at_kenema_sum}`,
-                                                `${orange_money_africa_app_download_for_iphone_at_kailahun_sum}`],
+                                                `${orange_money_africa_app_download_for_iphone_at_hqshop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_flagshipshop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_wellingtonshop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_waterlooshop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_makenishop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_boshop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_kenemashop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_konoshop_sum}`,
+                                                `${orange_money_africa_app_download_for_iphone_at_lungishop_sum}`,
+
+                                            ],
                                         },
                                     ],
                                 }}
@@ -196,21 +276,33 @@ const Dashboard = () => {
                             <CChartBar
                                 data={{
                                     labels: [
-                                        'Regent Road',
-                                        'Wilkenson Road',
+                                        'HeadQ',
+                                        'Flagship',
+                                        'Wellington',
+                                        'Waterloo',
+                                        'Makeni',
+                                        'Bo',
                                         'Kenema',
-                                        'Kailahun'
+                                        'Kono',
+                                        'Lungi'
                                     ],
                                     datasets: [
                                         {
                                             label: ['Details'],
-                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253'],
+                                            backgroundColor: ['#E14D2A', '#FD841F', '#3E6D9C', '#001253', '#FF7B54', '#FFB26B', '#FFD56F', '#939B62', '#B08BBB'],
                                             data: [
 
-                                                `${orange_money_africa_app_download_for_android_at_regent_rd_sum}`,
-                                                `${orange_money_africa_app_download_for_android_at_wilkenson_rd_sum}`,
-                                                `${orange_money_africa_app_download_for_android_at_kenema_sum}`,
-                                                `${orange_money_africa_app_download_for_android_at_kailahun_sum}`],
+                                                `${orange_money_africa_app_download_for_android_at_hqshop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_flagshipshop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_wellingtonshop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_waterlooshop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_makenishop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_boshop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_kenemashop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_konoshop_sum}`,
+                                                `${orange_money_africa_app_download_for_android_at_lungishop_sum}`,
+
+                                            ],
                                         },
                                     ],
                                 }}
@@ -251,10 +343,10 @@ export default Dashboard
 //                     label: 'GitHub Commits',
 //                     backgroundColor: '#f87979',
 //                     data: [
-//                         my_orange_app_download_for_iphone_at_regent_rd_sum,
-//                         my_orange_app_download_for_android_at_regent_rd_sum,
-//                         orange_money_africa_app_download_for_iphone_at_regent_rd_sum,
-//                         orange_money_africa_app_download_for_android_at_regent_rd_sum,
+//                         my_orange_app_download_for_iphone_at_hqshop_sum,
+//                         my_orange_app_download_for_android_at_hqshop_sum,
+//                         orange_money_africa_app_download_for_iphone_at_hqshop_sum,
+//                         orange_money_africa_app_download_for_android_at_hqshop_sum,
 
 //                         my_orange_app_download_for_iphone_at_kenema_sum,
 //                         my_orange_app_download_for_android_at_kenema_sum,
