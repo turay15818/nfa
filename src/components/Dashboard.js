@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import axios from 'axios'
+import axios from 'axios';
 import {
     CCard,
     CCardBody,
