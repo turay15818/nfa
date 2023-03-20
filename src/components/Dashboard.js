@@ -128,7 +128,7 @@ const Dashboard = () => {
                 <Container>
                     <Navbar.Brand href="#home">ORANGE SIERRA LEONE</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home"></Nav.Link>
+                        <Nav.Link href="#home">Welcome</Nav.Link>
                         <Nav.Link href="#features"></Nav.Link>
                         <Nav.Link href="#pricing"></Nav.Link>
                     </Nav>
