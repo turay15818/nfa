@@ -126,9 +126,9 @@ const Dashboard = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">ORANGE SIERRA LEONE</Navbar.Brand>
+                    <Navbar.Brand href="#home">ORANGE SIERRA LEONE DASHBOARD</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Welcome</Nav.Link>
+                        <Nav.Link href="#home">DOWNLOAD PER SHOP CHART</Nav.Link>
                         <Nav.Link href="#features"></Nav.Link>
                         <Nav.Link href="#pricing"></Nav.Link>
                     </Nav>
