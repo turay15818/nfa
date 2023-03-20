@@ -4,7 +4,7 @@ function WellingtonShopOrangeMoneyAfricaAndroid() {
 
   const downloadLocation = "Wellington Shop";
   const appDownloaded = "Orange Money Africa Android";
-  const coordinate = "7.880783487922352, -11.190103268601433"
+  const coordinate = "8.444351, -13.163071"
   const timestamp = new Date().toISOString();
 
   fetch("https://heruku-app.herokuapp.com/api/orangeMoneyAfrica-for-wellingtonshop/Android", {

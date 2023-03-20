@@ -4,7 +4,7 @@ function LungiShopOrangeMoneyAfricaAndroid() {
 
   const downloadLocation = "Lungi Shop";
   const appDownloaded = "Orange Money Africa Android";
-  const coordinate = "7.966290383215581, -11.739795058541828"
+  const coordinate = "8.614998, -13.200568"
   const timestamp = new Date().toISOString();
 
   fetch("https://heruku-app.herokuapp.com/api/orangeMoneyAfrica-for-lungishop/Android", {

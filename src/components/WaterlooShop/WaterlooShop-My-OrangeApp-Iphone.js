@@ -5,7 +5,7 @@ function WaterlooShopMyOrangeAppIphone() {
 
     const appDownloaded = "My Orange App For Iphone";
     const downloadLocation = "Waterloo Shop";
-    const coordinate = "7.880783487922352, -11.190103268601433"
+    const coordinate = "8. 330571, -13.067267"
     const timestamp = new Date().toISOString();
 
     fetch("https://heruku-app.herokuapp.com/api/myOrange-for-waterlooshop/Iphone", {
