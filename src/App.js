@@ -4,6 +4,7 @@ import './App.css';
 
 
 import Dashboard from './components/Dashboard';
+import Iframee from './components/Iframe';
 
 //Headquarter Shop Done
 import HqShopMyOrangeAppAndroid from './components/HqShop/HqShop-My-OrangeApp-Android';
@@ -81,6 +82,7 @@ function App() {
 
           {/* Shop A */}
           <Route path="/" element={<Dashboard />} />
+          <Route path="iframe" element={<Iframee />} />
 
           <Route path="my-orangeApp-hqshop-Android" element={<HqShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-hqshop-Android" element={<HqShopOrangeMoneyAfricaAndroid />} />
