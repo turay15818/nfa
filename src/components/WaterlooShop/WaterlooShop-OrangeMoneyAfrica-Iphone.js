@@ -5,7 +5,7 @@ function WaterlooShopOrangeMoneyAfricaIphone() {
 
   const downloadLocation = "Waterloo Shop";
   const appDownloaded = "Orange Money Africa Iphone";
-  const coordinate = "7.880783487922352, -11.190103268601433"
+  const coordinate = "8.330571, -13.067267"
   const timestamp = new Date().toISOString();
 
   fetch("https://heruku-app.herokuapp.com/api/orangeMoneyAfrica-for-waterlooshop/Iphone", {
