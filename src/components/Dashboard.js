@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import {
     CCard,
     CCardBody,
@@ -130,7 +131,9 @@ const Dashboard = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="#home"></Nav.Link>
                         <Nav.Link href="#features"></Nav.Link>
-                        <Nav.Link href="#pricing"></Nav.Link>
+                        <Nav.Link href="weeklyReport"><Link to="weeklyReport" style={{ color: "white", textDecoration: "none", fontWeight: 700 }}>Weekly Report</Link></Nav.Link>
+                        <Nav.Link href="weeklyReport"><Link to="monthlyReport" style={{ color: "white", textDecoration: "none", fontWeight: 700 }}>One Month Report</Link></Nav.Link>
+
                     </Nav>
                 </Container>
             </Navbar>

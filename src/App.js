@@ -4,7 +4,8 @@ import './App.css';
 
 
 import Dashboard from './components/Dashboard';
-
+import WeeklyReport from './components/WeeklyReport';
+import MonthlyReport from './components/MonthlyReport';
 //Headquarter Shop Done
 import HqShopMyOrangeAppAndroid from './components/HqShop/HqShop-My-OrangeApp-Android';
 import HqShopMyOrangeAppIphone from './components/HqShop/HqShop-My-OrangeApp-Iphone';
@@ -81,6 +82,8 @@ function App() {
 
           {/* Shop A */}
           <Route path="/" element={<Dashboard />} />
+          <Route path="weeklyReport" element={<WeeklyReport />} />
+          <Route path="monthlyReport" element={<MonthlyReport />} />
 
           <Route path="my-orangeApp-hqshop-Android" element={<HqShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-hqshop-Android" element={<HqShopOrangeMoneyAfricaAndroid />} />
