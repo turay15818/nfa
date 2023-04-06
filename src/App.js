@@ -4,8 +4,13 @@ import './App.css';
 
 
 import Dashboard from './components/Dashboard';
+<<<<<<< HEAD
 import WeeklyReport from './components/WeeklyReport';
 import MonthlyReport from './components/MonthlyReport';
+=======
+import Iframee from './components/Iframe';
+
+>>>>>>> 52c32b591a85862e3d03c759d0a42bb4675e8019
 //Headquarter Shop Done
 import HqShopMyOrangeAppAndroid from './components/HqShop/HqShop-My-OrangeApp-Android';
 import HqShopMyOrangeAppIphone from './components/HqShop/HqShop-My-OrangeApp-Iphone';
@@ -82,8 +87,12 @@ function App() {
 
           {/* Shop A */}
           <Route path="/" element={<Dashboard />} />
+<<<<<<< HEAD
           <Route path="weeklyReport" element={<WeeklyReport />} />
           <Route path="monthlyReport" element={<MonthlyReport />} />
+=======
+          <Route path="iframe" element={<Iframee />} />
+>>>>>>> 52c32b591a85862e3d03c759d0a42bb4675e8019
 
           <Route path="my-orangeApp-hqshop-Android" element={<HqShopMyOrangeAppAndroid />} />
           <Route path="orange-money-africa-hqshop-Android" element={<HqShopOrangeMoneyAfricaAndroid />} />
