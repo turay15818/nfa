@@ -47,7 +47,20 @@ const WeeklyReport = () => {
                     processing: true,
                     dom: 'Bfrtip',
                     destroy: true,
-                    buttons: ['copy', 'csv', 'excel', 'pdf', 'print',
+                    buttons: [
+                        'copy', 'print',
+                        {
+                            extend: 'excelHtml5',
+                            title: 'My Orange App Download For Iphone'
+                        },
+                        {
+                            extend: 'pdfHtml5',
+                            title: 'My Orange App Download For Iphone'
+                        },
+                        {
+                            extend: 'csvHtml5',
+                            title: 'My Orange App Download For Iphone'
+                        }
                     ]
                 }
             );
@@ -65,7 +78,20 @@ const WeeklyReport = () => {
                     processing: true,
                     dom: 'Bfrtip',
                     destroy: true,
-                    buttons: ['copy', 'csv', 'excel', 'pdf', 'print'
+                    buttons: [
+                        'copy', 'print',
+                        {
+                            extend: 'excelHtml5',
+                            title: 'My Orange App Download For Android'
+                        },
+                        {
+                            extend: 'pdfHtml5',
+                            title: 'My Orange App Download For Android'
+                        },
+                        {
+                            extend: 'csvHtml5',
+                            title: 'My Orange App Download For Android'
+                        }
                     ]
                 }
             );
@@ -83,7 +109,20 @@ const WeeklyReport = () => {
                     processing: true,
                     dom: 'Bfrtip',
                     destroy: true,
-                    buttons: ['copy', 'csv', 'excel', 'pdf', 'print'
+                    buttons: [
+                        'copy', 'print',
+                        {
+                            extend: 'excelHtml5',
+                            title: 'Orange Money Africa App Download For Android'
+                        },
+                        {
+                            extend: 'pdfHtml5',
+                            title: 'Orange Money Africa App Download For Android'
+                        },
+                        {
+                            extend: 'csvHtml5',
+                            title: 'Orange Money Africa App Download For Android'
+                        }
                     ]
                 }
             );
@@ -100,7 +139,20 @@ const WeeklyReport = () => {
                     processing: true,
                     dom: 'Bfrtip',
                     destroy: true,
-                    buttons: ['copy', 'csv', 'excel', 'pdf', 'print'
+                    buttons: [
+                        'copy', 'print',
+                        {
+                            extend: 'excelHtml5',
+                            title: 'Orange Money Africa App Download For Iphone'
+                        },
+                        {
+                            extend: 'pdfHtml5',
+                            title: 'Orange Money Africa App Download For Iphone'
+                        },
+                        {
+                            extend: 'csvHtml5',
+                            title: 'Orange Money Africa App Download For Iphone'
+                        }
                     ]
                 }
             );
@@ -271,15 +323,15 @@ const WeeklyReport = () => {
 
                     </CCol>
 
-                    <br/>
-<br/>
+                    <br />
+                    <br />
 
                     <CCol xs={12}>
                         <CModalHeader>
                             <CModalTitle>My Orange App Download For Android</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table2">
-                        <caption><h2>My Orange App Download For Android</h2></caption>
+                            <caption><h2>My Orange App Download For Android</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>
@@ -311,15 +363,15 @@ const WeeklyReport = () => {
 
                     </CCol>
 
-                    <br/>
-<br/>
+                    <br />
+                    <br />
 
                     <CCol xs={12}>
                         <CModalHeader>
                             <CModalTitle>Orange Money Africa App Download For Android</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table3">
-                        <caption><h2>Orange Money Africa App Download For Android</h2></caption>
+                            <caption><h2>Orange Money Africa App Download For Android</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>
@@ -350,8 +402,8 @@ const WeeklyReport = () => {
                         </Table>
                     </CCol>
 
-<br/>
-<br/>
+                    <br />
+                    <br />
 
 
                     <CCol xs={12}>
@@ -359,7 +411,7 @@ const WeeklyReport = () => {
                             <CModalTitle>Orange Money Africa App Download For Iphone</CModalTitle>
                         </CModalHeader>
                         <Table striped bordered hover size="sm" responsive id="table4">
-                        <caption><h2>Orange Money Africa App Download For Android</h2></caption>
+                            <caption><h2>Orange Money Africa App Download For Android</h2></caption>
                             <thead>
                                 <tr>
                                     <th>HQ</th>
